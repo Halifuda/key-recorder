@@ -391,7 +391,7 @@ fn counting() {
         write!(recordfile, "{} ", i).expect("fail to write");
     }
 
-    CTRLC_SIGNAL.store(true, Ordering::Relaxed);
+    CTRLC_SIGNAL.store(false, Ordering::Relaxed);
 }
 
 fn main() {
