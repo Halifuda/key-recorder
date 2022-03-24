@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 device_query = "1.0.0"
 chrono = "0.4.19"
+ctrlc = "3.2.1"
